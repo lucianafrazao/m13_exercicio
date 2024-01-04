@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teacher Lu Frazão</title>
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="cabecalho" class="sticky-top">
+        <div class="navbar navbar-expand-lg">
+            <div class="container">
+                <img src="./imagens/laptop.jpg" alt="laptop" class="d-inline-block align-text-top">
+                <h1>Teacher Lu Frazão</h1>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                    <ul class="nav nav-pills navbar-nav">
+                        <li class="nav-item">
+                            <a href="#inicio" class="nav-link active">Início</a>
+                        </li>                        
+                        <li class="nav-item">
+                            <a href="#about" class="nav-link">Sobre mim</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#study" class="nav-link">Estude comigo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contact" class="nav-link">Contato</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div class="container" id="inicio">
+        <div id="carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div data-bs-interval="3000" class="carousel-item active">
+                    <img class="d-block w-100 rounded" src="./imagens/online.jpg"/>
+                    <div class="carousel-caption rounded">
+                        <h2>Aulas 100% online</h2>
+                    </div>
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="d-block w-100" src="./imagens/trip.jpg" alt=""/>
+                    <div class="carousel-caption rounded">
+                        <h2>Inglês geral, para viagens ou negócios</h2>
+                    </div>
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="d-block w-100" src="./imagens/prep.jpg" alt=""/>
+                    <div class="carousel-caption rounded">
+                        <h2>Preparatórios e Speaking classes</h2>
+                    </div>
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="d-block w-100" src="./imagens/teacher.jpg" alt=""/>
+                    <div class="carousel-caption rounded">
+                        <h2>English for teachers and Teacher training</h2>
+                    </div>
+                </div>
+            </div>
+            <button data-bs-target="#carousel" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button data-bs-target="#carousel" data-bs-slide="next" class="carousel-control-next" type="button">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+    </div>
+
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho">
+        <section id="about">
+            <div class="container p-5">
+                <h2>Sobre mim</h2>    
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="./imagens/teacher_lu.png" alt="Teacher Lu Frazão" class="img-fluid max-width-100">
+                    </div>
+                    <div class="col-md-6">
+                        <p>
+                            Hello!!! I'm Lu Frazão. Nice to meet you! 
+                        </p>                
+                        <p>
+                            Dou aulas de inglês há 15 anos. Já morei na Inglaterra, onde fiz um mestrado, e tenho também uma pós em Linguística pela Faculdade Prominas. Dou treinamento para professores há mais de 9 anos, sou examinadora oral de Cambridge desde 2014 e fui também coordenadora de curso de idiomas por 5 anos.
+                        </p>
+                        <p>
+                            Trabalho em geral com a metodologia comunicativa, que foca mais no speaking durante as aulas: mesmo trabalhando também as outras habilidades, o foco vai ser sempre a sua fala!
+                        </p>
+                        <p>
+                            Além das aulas, eu também vou ajudar a montar um planejamento de estudos semanal, dentro do possível na sua rotina, para que seus objetivos sejam alcançados dentro do prazo desejado.
+                        </p>
+                        <p>E aí, vamos tirar os estudos de inglês do papel?</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="study">
+            <div class="container p-5">
+                <h2>Estude Comigo</h2>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-4">
+                        <div class="card">
+                            <div class="card-header">Aulas particulares</div>
+                            <img src="./imagens/private.jpg">
+                            <div class="card-body">
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium amet quas ab quisquam rem ut dolor eveniet vel, illo consectetur aliquam deserunt excepturi exercitationem modi iure doloribus odio quia ipsum.
+                                </p>
+                                <a href="#" class="btn btn-dark">Botão link</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <div class="card text-bg-dark">
+                            <div class="card-header">Aulas em grupo</div>
+                            <img src="./imagens/group.jpg">
+                            <div class="card-body">
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium amet quas ab quisquam rem ut dolor eveniet vel, illo consectetur aliquam deserunt excepturi exercitationem modi iure doloribus odio quia ipsum.
+                                </p>
+                                <a href="#" class="btn btn-secondary">Botão link</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <div class="card">
+                            <div class="card-header">I'm a teacher!</div>
+                            <img src="./imagens/onlineteacher.jpg">
+                            <div class="card-body">
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium amet quas ab quisquam rem ut dolor eveniet vel, illo consectetur aliquam deserunt excepturi exercitationem modi iure doloribus odio quia ipsum.
+                                </p>
+                                <a href="#" class="btn btn-dark">Botão link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="container pb-5">
+                <h2>Contato</h2>
+            </div>
+            <div class="container w-50">
+                <div class="row">
+                    <div class="col">
+                        <h4>Manda um hello!</h3>
+                        <form>
+                            <label for="nome" class="form-label">Seu nome:</label>
+                            <input type="text" id="nome" class="form-control" required>
+                            <label for="email" class="form-label">Seu email:</label>
+                            <input type="email" id="email" class="form-control" required>
+                            <label for="insta" class="form-label">Seu instagram (opcional):</label>
+                            <input type="insta" id="insta" class="form-control">
+                            <label for="mensagem" class="form-label">Sua mensagem:</label>
+                            <textarea id="mensagem" class="form-control"></textarea>
+                            <button type="submit" class="btn btn-info btn-sm m-3">Enviar</button>
+                        </form>
+                    </div> 
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <div class="container d-flex justify-content-between align-items-center">
+            <p>
+                &copy; Teacher Lu Frazão - Todos os direitos reservados - 2023
+            </p>
+            <ul class="social-links list-unstyled d-flex">
+                <li class="mr-3">    
+                    <div class="image-tooltip-container">
+                        <a href="http://instagram.com/teacherlufrazaoo" target="_blank">
+                            <img src="./imagens/instagram.png" alt="Logo Instagram">
+                        </a>
+                        <span class="tooltip">Me acompanhe no Instagram</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="image-tooltip-container">
+                        <a href="http://wa.me/+5581981121700" target="_blank">
+                        <img src="./imagens/whatsapp.png" alt="Fale comigo no WhatsApp">
+                        </a>
+                        <span class="tooltip">Fale comigo no WhatsApp</span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>

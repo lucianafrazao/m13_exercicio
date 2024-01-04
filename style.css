@@ -1,0 +1,107 @@
+* {
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header img {
+    width: 78px;
+    padding-right: 20px;
+}
+
+header {
+    padding: 16px 0;
+    color: rgb(245, 188, 171);
+    background-color: white;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+.navbar-nav .nav-link.active {
+    color: white;
+}
+
+.nav-link {
+    text-align: center;
+}
+
+body {
+    background-color: #F5F5F5;
+}
+
+.carousel-caption{
+    background-color: rgba(245, 188, 171, 0.8);
+}
+
+section {
+    min-height: 100vh;
+    padding-top: 70px;
+}
+
+section h2 {
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(245, 188, 171);
+    text-decoration: underline;
+}
+
+#about img {
+    max-width: 100%;
+}
+
+#contact {
+    padding-top: 100px;
+}
+
+footer {
+    background-color: #F7A786;
+    padding: 5px 0;
+    align-items: center;
+}
+
+footer img {
+    max-width: 60px;
+    margin-right: 10px;
+}
+
+.image-tooltip-container {
+    position: relative;
+    display: inline-block; 
+}
+
+.tooltip {
+    visibility: hidden;
+    background-color: #F7A786;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1; 
+    top: -30%;
+    left: 50%;
+    transform: translateX(-50%); 
+    opacity: 0;
+    transition: opacity 0.3s;
+    white-space: nowrap;
+}
+
+.image-tooltip-container:hover .tooltip {
+    visibility: visible;
+    opacity: 1;
+}
+
+.social-links {
+    margin: 5px;
+}
+
+@media (max-width: 1023px) {
+    section {
+        min-height: auto;
+    }
+}
